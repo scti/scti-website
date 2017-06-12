@@ -1,24 +1,21 @@
-# README
+# scti
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: 2.33
 
-Things you may want to cover:
+## Run app
 
-* Ruby version
+`docker-compose up`
 
-* System dependencies
+## Stop app
 
-* Configuration
+`docker-compose down`
 
-* Database creation
+## Restart app
 
-* Database initialization
+First run `docker-compose up`
 
-* How to run the test suite
+Then, in another terminal tab/window, run `docker-compose run web rake db:create` to restart the database
 
-* Services (job queues, cache servers, search engines, etc.)
+## More info
 
-* Deployment instructions
-
-* ...
+https://docs.docker.com/compose/rails/
