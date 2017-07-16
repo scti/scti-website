@@ -1,0 +1,8 @@
+{
+  "name": "SCTI",
+  "description": "SCTI 2017 Website",
+  "image": "heroku/ruby",
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
